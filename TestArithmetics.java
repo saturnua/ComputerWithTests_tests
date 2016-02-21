@@ -26,7 +26,7 @@ public class TestArithmetics {
 	}
 	
 	@Test
-	public void testOparetion(){
+	public void testOperation(){
 		int s = CalculatorWithSwitch.getOperation("+");
 		Assert.assertFalse(s == 2);
 	}
